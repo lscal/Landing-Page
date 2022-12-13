@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+/*header stuff*/
+.header {
+    background-color: #1F2937;
+    width: 100%;
+    height: 100%;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul, a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7ebbd;
+    margin: 0;
+    padding: 0;
+}
+.head-big {
+    font-size: 48px;
+    font-weight: bolder;
+    color:#F9FAF8
+}
+.head-small {
+    font-size: 18px;
+    color: #e5e7ebbd;
+}
+.sign-up {
+    background-color: #3882F6;
+    color:#F9FAF8
+}
+.headerpic {
+    width: 340px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+img{
+    width: 10px;
+    height: 10px;
+}
