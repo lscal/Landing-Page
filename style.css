@@ -56,6 +56,7 @@ ul, a {
     align-items: center;
     border-radius: 25px;
     padding: 10px;
+    font-weight: bolder;
 }
 .headerpic {
     width: 200px;
@@ -109,7 +110,7 @@ ul, a {
     width: 100%;
     justify-content: center;
     align-items: center;
-    height: 423px;
+    height: 350px;
 }
 .quote-big {
     font-size: 36px;
@@ -126,8 +127,45 @@ ul, a {
 .words {
     max-width: 520px;
 }
-
-
+/*call to action*/
+.sign-up-please {
+    display: flex;
+    padding: 50px;
+}
+.cta {
+    display: flex;
+    background-color: #3882F6;
+    width: 1000px;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+.big {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bolder;
+    margin: 0px;
+}
+.small {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0px;
+}
+.sign-up-invert {
+    color:#F9FAF8;
+    width: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding: 10px;
+    border: solid #F9FAF8;
+    font-weight: bold;
+}
+.text {
+    display: flex;
+    flex-direction: column;
+}
 
 
 
