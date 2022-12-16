@@ -166,6 +166,17 @@ ul, a {
     display: flex;
     flex-direction: column;
 }
+/*footer*/
+.footer {
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
 
 
 
