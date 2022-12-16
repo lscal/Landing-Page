@@ -25,21 +25,25 @@ body {
     margin-bottom: 100px;
     margin-top: 15px;
     font-weight: bold;
+    gap: 43px;
 }
-ul, a {
+ul{
     list-style: none;
-    text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 20px;
+    
+}
+ul a{
+    font-size: 18px;
+    color: #E5E7EB;
     font-weight: initial;
+    text-decoration: none;
 }
 .head-big {
     font-size: 48px;
-    font-weight: bolder;
+    font-weight: bold;
     color:#F9FAF8
 }
 .head-small {
@@ -47,16 +51,21 @@ ul, a {
     color: #E5E7EB;;
     margin-bottom: 10px;
 }
-.sign-up {
+.sign-up{
     background-color: #3882F6;
-    color:#F9FAF8;
+    
     width: 75px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 25px;
     padding: 10px;
+    
+}
+.sign-up a{
+    color:#F9FAF8;
     font-weight: bolder;
+    text-decoration: none;
 }
 .headerpic {
     width: 200px;
@@ -126,6 +135,7 @@ ul, a {
 }
 .words {
     max-width: 520px;
+    flex-shrink: 0;
 }
 /*call to action*/
 .sign-up-please {
@@ -151,8 +161,8 @@ ul, a {
     color: #F9FAF8;
     margin: 0px;
 }
-.sign-up-invert {
-    color:#F9FAF8;
+.sign-up-invert{
+    
     width: 75px;
     display: flex;
     justify-content: center;
@@ -160,7 +170,12 @@ ul, a {
     border-radius: 25px;
     padding: 10px;
     border: solid #F9FAF8;
+    
+}
+.sign-up-invert a{
+    color:#F9FAF8;
     font-weight: bold;
+    text-decoration: none;
 }
 .text {
     display: flex;
@@ -175,9 +190,11 @@ ul, a {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 32px;
+    padding: 32px 0px;
 }
-
+.foot {
+    flex-shrink: 0;
+}
 
 
 
